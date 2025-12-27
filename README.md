@@ -1,6 +1,6 @@
 # configs
 
-My Neovim and tmux configuration.
+my neovim and tmux configuration.
 
-Neovim uses lazy.nvim.  
+neovim uses lazy.nvim.  
 tmux uses a custom keybinding setup.
