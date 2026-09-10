@@ -93,3 +93,8 @@ fi
 
 # Machine-specific aliases, credentials, and environment variables.
 [[ -r "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
+
+# Automatically enter the permanent workspace from standalone terminals.
+if [[ -z "$TMUX" && -t 0 && -t 1 ]]; then
+  t
+fi
